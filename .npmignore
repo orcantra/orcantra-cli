@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But allow these to be published
+!dist/
+!.npmignore
+!package.json
+!README.md
+!LICENSE

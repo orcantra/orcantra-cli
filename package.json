@@ -3,6 +3,22 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Orcantra Dev Infrastructure Bootstrapper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orcantra/orcantra-cli.git"
+  },
+  "homepage": "https://github.com/orcantra/orcantra-cli",
+  "bugs": {
+    "url": "https://github.com/orcantra/orcantra-cli/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
   "main": "dist/index.js",
   "bin": {
     "orcantra": "dist/index.js"
