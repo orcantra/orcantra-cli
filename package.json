@@ -1,6 +1,7 @@
 {
   "name": "@orcantra/cli",
   "version": "0.1.0",
+  "type": "module",
   "description": "Orcantra Dev Infrastructure Bootstrapper",
   "main": "dist/index.js",
   "bin": {
