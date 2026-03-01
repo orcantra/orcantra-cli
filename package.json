@@ -5,7 +5,7 @@
   "description": "Orcantra Dev Infrastructure Bootstrapper",
   "repository": {
     "type": "git",
-    "url": "https://github.com/orcantra/orcantra-cli.git"
+    "url": "git+https://github.com/orcantra/orcantra-cli.git"
   },
   "homepage": "https://github.com/orcantra/orcantra-cli",
   "bugs": {
