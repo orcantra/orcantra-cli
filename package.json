@@ -1,0 +1,32 @@
+{
+  "name": "@orcantra/cli",
+  "version": "0.1.0",
+  "description": "Orcantra Dev Infrastructure Bootstrapper",
+  "main": "dist/index.js",
+  "bin": {
+    "orcantra": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "cli",
+    "orcantra",
+    "infrastructure",
+    "bootstrap"
+  ],
+  "author": "Orcantra",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5",
+    "commander": "^11",
+    "ora": "^7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsup": "^8",
+    "typescript": "^5"
+  }
+}
